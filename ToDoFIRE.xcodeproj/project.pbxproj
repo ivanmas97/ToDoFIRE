@@ -19,6 +19,8 @@
 		0BD86F382A4F61F200986195 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD86F372A4F61F200986195 /* FirebaseStorage */; };
 		0BD86F3A2A4F62E600986195 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BD86F392A4F62E600986195 /* GoogleService-Info.plist */; };
 		0BD86F3C2A4F73C300986195 /* KeyboardExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD86F3B2A4F73C300986195 /* KeyboardExtention.swift */; };
+		0BD86F3E2A504D7600986195 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD86F3D2A504D7600986195 /* TaskModel.swift */; };
+		0BD86F402A504D8300986195 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD86F3F2A504D8300986195 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		0B8F0ED42A4C5805005C8DC3 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		0BD86F392A4F62E600986195 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0BD86F3B2A4F73C300986195 /* KeyboardExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtention.swift; sourceTree = "<group>"; };
+		0BD86F3D2A504D7600986195 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		0BD86F3F2A504D8300986195 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				0B8F0ECB2A4C526B005C8DC3 /* LaunchScreen.storyboard */,
 				0B8F0ECE2A4C526B005C8DC3 /* Info.plist */,
 				0BD86F392A4F62E600986195 /* GoogleService-Info.plist */,
+				0BD86F412A504D8B00986195 /* Models */,
 				0B8F0ED72A4C5859005C8DC3 /* Controllers */,
 			);
 			path = ToDoFIRE;
@@ -88,6 +93,15 @@
 				0B8F0ED42A4C5805005C8DC3 /* TasksViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0BD86F412A504D8B00986195 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BD86F3D2A504D7600986195 /* TaskModel.swift */,
+				0BD86F3F2A504D8300986195 /* UserModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD86F3E2A504D7600986195 /* TaskModel.swift in Sources */,
+				0BD86F402A504D8300986195 /* UserModel.swift in Sources */,
 				0B8F0EC52A4C526A005C8DC3 /* LoginViewController.swift in Sources */,
 				0B8F0ED52A4C5805005C8DC3 /* TasksViewController.swift in Sources */,
 				0B8F0EC12A4C526A005C8DC3 /* AppDelegate.swift in Sources */,
